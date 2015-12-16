@@ -201,7 +201,7 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     #
     elif player == 4:
         if getting_team_name:
-            return 'betray every round'
+            return 'betrays every round'
         else:
             # use history, opponent_history, score, opponent_score
             # to compute your strategy
