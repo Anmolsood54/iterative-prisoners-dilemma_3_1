@@ -229,7 +229,7 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
             return 'loyal vengeful'
         else:
             # use history, opponent_history, score, opponent_score
-            # to compute your strategy
+            # to co mpute your strategy
             if len(opponent_history)==0: #It's the first round: collude
                 return 'c'
             elif history[-1]=='c' and opponent_history[-1]=='b':
